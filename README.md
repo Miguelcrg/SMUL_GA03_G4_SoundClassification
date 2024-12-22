@@ -44,6 +44,8 @@ For this Environmental Sound Classification assignment, the US8K dataset was use
 
 If the following structure is not met, then the path variables used in the notebooks will probably require alteration to match the system's directory strucutre.
 
+## Notebooks
+
 All the notebooks use the CLAP model version of 2023.
 
 The notebooks folder contains three jupyter notebooks: zero_shot_prediction, zero_shot_classification and zero_shot_classification_cross_validation.
@@ -52,4 +54,4 @@ The zero_shot_prediction notebook takes an audio file from the US8K dataset, tak
 
 The zero_shot_classification notebook takes the whole dataset and it's true labels, makes predictions on the whole dataset and finally determines the model's accuracy along with it's confusion matrix.
 
-The zero_shot_classification_cross_validation notebook works similarly to the zero_shot_classification notebook, except it makes the predictions per fold, and measures the accuracy per folder. The total accuracy of the model is the average accuracy along the 10 folds. This is the 10-fold cross validation method.
+The zero_shot_classification_cross_validation notebook works similarly to the zero_shot_classification notebook, except it makes the predictions per fold, and measures the accuracy per fold. The total accuracy of the model is the average accuracy of the 10 folds. This is the 10-fold cross validation method.

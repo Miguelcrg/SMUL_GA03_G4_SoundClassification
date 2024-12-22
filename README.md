@@ -11,36 +11,36 @@ This is a repository to store the project of Group 4 in Environmental Sound Clas
 
 Software Versions used:
 
-[-] Python 3.11.11
-[-] msclap 1.3.3
-[-] torch 2.1.2
-[-] numpy 1.26.4
-[-] pandas 2.2.3
-[-] tqdm 4.67.1
-[-] matplotlib 3.9.4
-[-] seaborn 0.13.2
+- Python 3.11.11
+- msclap 1.3.3
+- torch 2.1.2
+- numpy 1.26.4
+- pandas 2.2.3
+- tqdm 4.67.1
+- matplotlib 3.9.4
+- seaborn 0.13.2
 
 ## Dataset and Set Up
 
 For this Environmental Sound Classification assignment, the US8K dataset was used. A compressed file was downloaded from the dataset's website: https://urbansounddataset.weebly.com/urbansound8k.html. The comrpessed file was placed in a folder named 'dataset', in the same directory as the notebooks folder. Uncompressing the file should result in the following structure:
 
-C:.
-└───SMUL_GA03_G4_SoundClassification
-    ├───dataset
-    │   └───UrbanSound8K
-    │       ├───audio
-    │       │   ├───fold1
-    │       │   ├───fold10
-    │       │   ├───fold2
-    │       │   ├───fold3
-    │       │   ├───fold4
-    │       │   ├───fold5
-    │       │   ├───fold6
-    │       │   ├───fold7
-    │       │   ├───fold8
-    │       │   └───fold9
-    │       └───metadata
-    └───notebooks
+    C:.
+    └───SMUL_GA03_G4_SoundClassification
+        ├───dataset
+        │   └───UrbanSound8K
+        │       ├───audio
+        │       │   ├───fold1
+        │       │   ├───fold10
+        │       │   ├───fold2
+        │       │   ├───fold3
+        │       │   ├───fold4
+        │       │   ├───fold5
+        │       │   ├───fold6
+        │       │   ├───fold7
+        │       │   ├───fold8
+        │       │   └───fold9
+        │       └───metadata
+        └───notebooks
 
 If the following structure is not met, then the path variables used in the notebooks will probably require alteration to match the system's directory strucutre.
 
